@@ -10,6 +10,14 @@ export default defineConfig({
       '~': resolve(__dirname, 'src'),
     },
   },
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html'),
+        '404': resolve(__dirname, '404.html'),
+      },
+    },
+  },
   plugins: [react(), svgr()],
-  base: '/my-web',
+  base: '/my-web/',
 })
