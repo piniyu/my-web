@@ -1,0 +1,6 @@
+.indicators {
+  @apply fill-slate-600;
+}
+.indicators.active {
+  @apply fill-slate-400;
+}
