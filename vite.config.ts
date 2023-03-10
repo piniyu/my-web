@@ -11,4 +11,5 @@ export default defineConfig({
     },
   },
   plugins: [react(), svgr()],
+  base: '/my-web/',
 })
