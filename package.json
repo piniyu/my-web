@@ -1,10 +1,13 @@
 {
-  "name": "template-vite-react-ts-tailwind-v3",
-  "version": "0.0.0",
+  "name": "my-web",
+  "version": "0.1.0",
+  "homepage": "https://piniyu.github.io/my-web",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "@react-spring/web": "^9.7.1",
