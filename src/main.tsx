@@ -63,7 +63,7 @@ const routerObjectArr = [
   },
 ]
 
-const router = createBrowserRouter(routerObjectArr)
+const router = createBrowserRouter(routerObjectArr, { basename: '/my-web' })
 
 ReactDOM.render(
   <React.StrictMode>
