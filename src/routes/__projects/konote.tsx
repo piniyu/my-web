@@ -39,7 +39,13 @@ export default function Konote() {
             </mark>
           </>
         }
-        links={[{ value: 'Github', url: 'https://github.com/w121211/conote' }]}
+        links={[
+          {
+            value: 'Github',
+            url: 'https://github.com/w121211/conote',
+            isExternal: true,
+          },
+        ]}
       />
 
       <Slideshow imageUrls={[konte1, konte2, konte3]} />

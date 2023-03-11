@@ -1,4 +1,5 @@
 import { useResizeDetector } from 'react-resize-detector'
+import BorderLink from '~/components/border-link'
 import TextSphere from '~/components/text-sphere'
 import ProjectPostWrapper from '../components/project-post-wrapper'
 
@@ -21,14 +22,16 @@ export default function About() {
           </div>
         </div>
         <p className="max-w-lg text-black ">
-          I'm passionate about using latest modern technologies to build
-          user-friendly and maintainable website.
+          I'm passionate about creating website that provides a intutive user
+          experience. As a natural problem solver with high attention to detail,
+          and I thrive on taking on challenge projects and finding innovative.
           <br />
-          <br />
-          Currently, I'm focusing on learnig as many new front-end technologies
-          as I can to expand my knowledge of web, and I'm also starting to learn
-          more about back-end development as well !!
+          Intrested in the entire front-end spectrum and working on ambitious
+          projects. I'm constantly learning and staying up-to-date with the
+          latest front-end technologies and tools, and I am excited to apply my
+          skills to ambitious projects in the future.
         </p>
+        <BorderLink url="projects" value="My Projects" />
       </ProjectPostWrapper>
       <TextSphere width={width ?? 0} />
     </div>

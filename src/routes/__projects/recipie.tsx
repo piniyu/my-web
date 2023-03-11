@@ -36,10 +36,12 @@ export default function Recipie() {
           {
             value: 'Github',
             url: 'https://github.com/piniyu/recipie-remix-app',
+            isExternal: true,
           },
           {
             value: 'Demo',
             url: 'https://recipie-remix-app.fly.dev/',
+            isExternal: true,
           },
         ]}
       />

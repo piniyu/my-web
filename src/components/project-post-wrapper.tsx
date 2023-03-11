@@ -53,7 +53,7 @@ export default function ProjectPostWrapper({
             `}
               ref={toolHeaderRef}
             >
-              LIBRARIES
+              NAIN TOOLS
             </h3>
             <ul className="-mt-3 space-y-2 border border-t-0 border-black/20 p-5 ">
               {tools.map(tool => (

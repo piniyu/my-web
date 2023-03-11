@@ -10,7 +10,7 @@ export default function ProjectPostTemplate({
   subTitle: string
   title: string
   description: ReactNode
-  links?: { value: string; url: string }[]
+  links?: { value: string; url: string; isExternal?: boolean }[]
 }) {
   return (
     <div className="space-y-6 sm:space-y-8">
@@ -26,8 +26,8 @@ export default function ProjectPostTemplate({
 
       {links ? (
         <div className="flex gap-8">
-          {links?.map(({ value, url }) => (
-            <BorderLink key={value} {...{ value, url }} />
+          {links?.map(({ value, url, isExternal }) => (
+            <BorderLink key={value} {...{ value, url, isExternal }} />
           ))}
         </div>
       ) : null}
