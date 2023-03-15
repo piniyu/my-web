@@ -11,6 +11,7 @@ export default function Recipie() {
         'React',
         'Remix.run',
         'TailwindCss',
+        'Redux Toolkit',
         'Prisma',
         'AWS S3',
         'AWS RDS',
@@ -22,14 +23,13 @@ export default function Recipie() {
         description={
           <>
             "Recipie" is a simple recipe sharing website. In this project,{' '}
-            <br />I did all the work from design to back-end by myself.
-            Regarding the front-end part, I tried to implement any technique I
-            wanted to learn. Such as, <mark>infinite scrolling</mark>,{' '}
-            <mark>upload image to AWS S3</mark>,{' '}
-            <mark>making a rds database</mark> and{' '}
+            <br />I did all the work from design to database. I tried to
+            implement any technique I wanted to learn. Such as,{' '}
+            <mark>infinite scrolling</mark>, <mark>upload image to AWS S3</mark>
+            , <mark>making a rds database</mark> and{' '}
             <mark>drawing charts with "Recharts"</mark> and so forth. I also
-            tried to use cookies to handle swtiching between light mode and dark
-            mode for better UX.
+            tried to use <code>`cookies`</code> to handle swtiching between
+            light mode and dark mode for better UX.
           </>
         }
         links={[

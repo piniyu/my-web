@@ -9,9 +9,10 @@ function App() {
 
   const transitions = useTransition(elements, {
     exitBeforeEnter: true,
-    from: { opacity: 0 },
-    enter: { opacity: 1 },
+    from: { opacity: 0, y: 20 },
+    enter: { opacity: 1, y: 0 },
     leave: { opacity: 1 },
+    trail: 1,
   })
 
   useEffect(() => {

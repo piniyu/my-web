@@ -20,7 +20,10 @@
     @apply text-3xl;
   }
   mark {
-    @apply bg-transparent underline underline-offset-2;
+    @apply bg-transparent font-bold;
+  }
+  code {
+    @apply text-sm;
   }
   /* @apply relative
   bg-transparent 

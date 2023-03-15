@@ -12,12 +12,14 @@ const texts = [
   'SASS',
   'Next.js',
   'TailwindCss',
+  'Redux Toolkit',
   'Prisma',
   'AWS S3',
   'AWS RDS',
   'Remix.run',
   'Github',
   'Sourcetree',
+  'React router',
 ]
 const options: TagCloudOptions = {
   radius: window.innerWidth / 6,
