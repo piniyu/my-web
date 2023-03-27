@@ -22,7 +22,7 @@ export default function ProjectPostTemplate({
           {title.toUpperCase()}
         </h1>
       </header>
-      <p>{description}</p>
+      <p className="indent-4">{description}</p>
 
       {links ? (
         <div className="flex gap-8">
