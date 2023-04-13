@@ -40,21 +40,21 @@ export default function Konote() {
               <mark>"Storybook"</mark> for testing UI components, especially
               when the back-end has not been implemented yet.
             </p>
-            <br />
+            {/* <br />
             <br />
             <mark>
               !! Currently, the website is not accessible because it's not ready
               to be opened to public !!
-            </mark>
+            </mark> */}
           </>
         }
-        links={[
-          {
-            value: 'Github',
-            url: 'https://github.com/w121211/conote',
-            isExternal: true,
-          },
-        ]}
+        // links={[
+        //   {
+        //     value: 'Github',
+        //     url: 'https://github.com/w121211/conote',
+        //     isExternal: true,
+        //   },
+        // ]}
       />
 
       <Slideshow imageUrls={[konte1, konte2, konte3]} />
